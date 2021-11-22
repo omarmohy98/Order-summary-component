@@ -39,7 +39,7 @@ main{
     margin-bottom: 30px;
     padding-top: 30px;
 }
-.summary-container h2 {
+.summary-container h1 {
     font-size: 20px;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
