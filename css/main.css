@@ -13,11 +13,10 @@
 /* Common Rules End */
 /* Main Section Start */
 main{
+    background-color: hsl(225, 100%, 94%);
     width: 100%;
     min-height: 100vh;
-    padding-top: 5vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-x;
 }
 /* Main Section End */
 /* Order Section Start */
@@ -127,24 +126,11 @@ main{
     color: hsl(223, 47%, 23%);
     font-weight: 900;
 }
-.attribution {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 14px;
-    color: hsl(223, 47%, 23%);
-    font-weight: 900;
-}
-.attribution a {
-    color: hsl(245, 75%, 52%);
-}
-.attribution a:hover {
-    opacity: .6;
-    text-decoration: none;
-}
 /* Mobile Screen */
 @media (min-width: 320px) and (max-width: 424px) {
     main{
         background-image: url("../images/pattern-background-mobile.svg");
+        padding: 10vh 0;
     }
     .order-card {
         width: 90%;
@@ -154,6 +140,7 @@ main{
 @media (min-width: 425px) and (max-width: 767px) {
     main{
         background-image: url("../images/pattern-background-mobile.svg");
+        padding: 10vh 0;
     }
     .order-card {
         width: 70%;
@@ -163,6 +150,7 @@ main{
 @media (min-width: 768px) and (max-width: 1023px) {
     main{
         background-image: url("../images/pattern-background-mobile.svg");
+        padding: 10vh 0;
     }
     .order-card {
         width: 40%;
@@ -172,6 +160,8 @@ main{
 @media (min-width: 1024px) and (max-width: 1199px) {
     main{
         background-image: url("../images/pattern-background-desktop.svg");
+        display: flex;
+        align-items: center;
     }
     .order-card {
         width: 30%;
@@ -181,6 +171,8 @@ main{
 @media (min-width: 1200px) {
     main{
         background-image: url("../images/pattern-background-desktop.svg");
+        display: flex;
+        align-items: center;
     }
     .order-card {
         width: 25%;
